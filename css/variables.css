@@ -1,0 +1,139 @@
+/* ============================================
+   CSS Variables - Theme Configuration
+   ============================================ */
+
+:root {
+  /* === COLOR PALETTE === */
+  /* Primary Colors */
+  --color-primary: #033f47;
+  --color-primary-dark: #022a30;
+  --color-primary-light: #0a5a66;
+  
+  /* Brand Color */
+  --color-brand: #e0f780;
+  --color-brand-hover: #deff58;
+  --color-brand-dark: #c7d956;
+  
+  /* Neutral Colors */
+  --color-text-primary: #eef3db;
+  --color-text-secondary: #b6cbce;
+  --color-text-muted: #7a8b8e;
+  --color-bg-light: #0f4a52;
+  --color-bg-lighter: #1a5d66;
+  
+  /* Status Colors */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #3b82f6;
+  
+  /* Backgrounds */
+  --color-bg: #022a30;
+  --color-bg-card: #033f47;
+  --color-bg-hover: #0a5a66;
+  --color-border: rgba(255, 255, 255, 0.1);
+  
+  /* === TYPOGRAPHY === */
+  --font-primary: 'Bai Jamjuree', 'Segoe UI', sans-serif;
+  --font-code: 'Courier New', monospace;
+  
+  /* Font Sizes */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: 1.5rem;
+  --fs-3xl: 1.875rem;
+  --fs-4xl: 2.25rem;
+  --fs-5xl: 3rem;
+  --fs-6xl: 3.75rem;
+  
+  /* Font Weights */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  
+  /* Line Heights */
+  --lh-tight: 1.2;
+  --lh-normal: 1.5;
+  --lh-relaxed: 1.75;
+  --lh-loose: 2;
+  
+  /* === SPACING === */
+  --spacing-2xs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-base: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 2.5rem;
+  --spacing-3xl: 3rem;
+  --spacing-4xl: 4rem;
+  --spacing-5xl: 5rem;
+  --spacing-6xl: 6rem;
+  
+  /* === BORDER RADIUS === */
+  --radius-sm: 0.25rem;
+  --radius-base: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius-full: 9999px;
+  
+  /* === SHADOWS === */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-base: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.25);
+  
+  /* === TRANSITIONS === */
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 300ms ease-in-out;
+  --transition-slow: 500ms ease-in-out;
+  
+  /* === Z-INDEX === */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+  
+  /* === CONTAINER === */
+  --container-max-width: 1200px;
+  --container-padding: 1.5rem;
+  --sidebar-width: 60px;
+  
+  /* === GRADIENT === */
+  --gradient-primary: linear-gradient(135deg, #033f47 0%, #022a30 100%);
+  --gradient-brand: linear-gradient(135deg, #e0f780 0%, #deff58 100%);
+}
+
+/* === DARK THEME (Default) === */
+body {
+  color-scheme: dark;
+}
+
+/* === LIGHT THEME === */
+body[data-theme="light"] {
+  --color-primary: #f8f9fa;
+  --color-primary-dark: #ffffff;
+  --color-primary-light: #e9ecef;
+  
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #4a4a4a;
+  --color-text-muted: #999999;
+  --color-bg: #ffffff;
+  --color-bg-card: #f8f9fa;
+  --color-bg-light: #e9ecef;
+  --color-bg-lighter: #dee2e6;
+  --color-border: rgba(0, 0, 0, 0.1);
+  
+  color-scheme: light;
+}
