@@ -2,14 +2,7 @@
 
 **Junior .NET Developer | Backend Developer | Computer Science Fresh Graduate**
 
-🔗 **Links:**
-- Email: mohamedayad504@gmail.com
-- Phone: +20 122 5226 901
-- LinkedIn: https://www.linkedin.com/in/mohamedayad504
-- GitHub: https://github.com/mohamedmahmoud55
-- Upwork: https://www.upwork.com/freelancers/~01c9f99f1f4c8d
-- Fiverr: https://www.fiverr.com/
-- Freelancer.com: https://www.freelancer.com/
+
 
 ---
 
